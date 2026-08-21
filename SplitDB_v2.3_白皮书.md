@@ -550,8 +550,3 @@ supervisorctl start splitdb-worker:*
 - Linux 环境（文件原子写入基于 Linux 系统规范，Windows 存在兼容性差异）
 
 ---
-
-## 整理说明
-
-- 本文档由 `Splitdb V2.3 白皮书.txt` 整理为 Markdown，结构调整为章节标题 / 表格 / 代码块，内容未增删改。
-- 原文为文本提取产物，代码块中缺失的 `$` 变量符号、被截断的标识符（如 `is_dir`、`file_exists`、`file_get_contents`、`LOCK_EX`、`$this->`、`$item['value']`）及 `find -name "*.sqlite"` 通配符等提取损坏项已按原意恢复；业务逻辑未改动。
